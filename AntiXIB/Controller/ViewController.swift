@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var topVC: ElementViewController!
-    var centerVC: ElementViewController!
+    weak var topVC: ElementViewController!
+    weak var centerVC: ElementViewController!
     
     @objc func sendToTopVC() {
         topVC.customLabel.text = "Top is here"

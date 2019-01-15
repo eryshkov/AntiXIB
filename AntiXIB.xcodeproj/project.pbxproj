@@ -58,16 +58,40 @@
 		5CE483BB21EE20BB00918929 /* AntiXIB */ = {
 			isa = PBXGroup;
 			children = (
-				5CE483D521EE281B00918929 /* element.storyboard */,
-				5CE483D821EE31E300918929 /* ElementViewController.swift */,
-				5CE483BC21EE20BB00918929 /* AppDelegate.swift */,
-				5CE483BE21EE20BB00918929 /* ViewController.swift */,
-				5CE483C021EE20BB00918929 /* Main.storyboard */,
+				5CE483DC21EE3CDE00918929 /* Model */,
+				5CE483DB21EE3CD300918929 /* View */,
+				5CE483DA21EE3CCA00918929 /* Controller */,
 				5CE483C321EE20BD00918929 /* Assets.xcassets */,
-				5CE483C521EE20BD00918929 /* LaunchScreen.storyboard */,
+				5CE483BC21EE20BB00918929 /* AppDelegate.swift */,
 				5CE483C821EE20BD00918929 /* Info.plist */,
 			);
 			path = AntiXIB;
+			sourceTree = "<group>";
+		};
+		5CE483DA21EE3CCA00918929 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE483BE21EE20BB00918929 /* ViewController.swift */,
+				5CE483D821EE31E300918929 /* ElementViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE483DB21EE3CD300918929 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CE483D521EE281B00918929 /* element.storyboard */,
+				5CE483C021EE20BB00918929 /* Main.storyboard */,
+				5CE483C521EE20BD00918929 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CE483DC21EE3CDE00918929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

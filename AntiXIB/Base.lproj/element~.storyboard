@@ -18,21 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXW-dL-lup">
+                            <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AlK-gL-1kw">
                                 <rect key="frame" x="87.5" y="283.5" width="200" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="1p3-eh-0nb"/>
-                                    <constraint firstAttribute="width" constant="200" id="BTs-dx-DxX"/>
+                                    <constraint firstAttribute="height" constant="100" id="BUy-YZ-Vnh"/>
+                                    <constraint firstAttribute="width" constant="200" id="PKG-2h-xfZ"/>
                                 </constraints>
-                                <connections>
-                                    <segue destination="OJB-DS-EvI" kind="embed" id="eJF-uz-kqB"/>
-                                </connections>
-                            </containerView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="XXW-dL-lup" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Avq-o1-lRl"/>
-                            <constraint firstItem="XXW-dL-lup" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lW3-RY-Yg6"/>
+                            <constraint firstItem="AlK-gL-1kw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Or-mI-t6w"/>
+                            <constraint firstItem="AlK-gL-1kw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GTZ-3F-Oj3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,13 +38,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--myElement-->
-        <scene sceneID="srD-vG-dgK">
+        <!--View Controller-->
+        <scene sceneID="uI7-K2-HVq">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="myElement" storyboardName="element" referencedIdentifier="myElement" id="OJB-DS-EvI" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Urd-f0-XqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="myElement" id="CSd-bh-dsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BId-eI-TEd">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="csd-cU-RS4"/>
+                    </view>
+                    <size key="freeformSize" width="200" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3fX-bo-dtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="26"/>
+            <point key="canvasLocation" x="1026" y="-385"/>
         </scene>
     </scenes>
 </document>

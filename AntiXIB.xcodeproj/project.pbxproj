@@ -13,6 +13,7 @@
 		5CE483C421EE20BD00918929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE483C321EE20BD00918929 /* Assets.xcassets */; };
 		5CE483C721EE20BD00918929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE483C521EE20BD00918929 /* LaunchScreen.storyboard */; };
 		5CE483D721EE281B00918929 /* element.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE483D521EE281B00918929 /* element.storyboard */; };
+		5CE483D921EE31E300918929 /* ElementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE483D821EE31E300918929 /* ElementViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5CE483C621EE20BD00918929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE483C821EE20BD00918929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE483D621EE281B00918929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AntiXIB/Base.lproj/element.storyboard; sourceTree = "<group>"; };
+		5CE483D821EE31E300918929 /* ElementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5CE483D521EE281B00918929 /* element.storyboard */,
+				5CE483D821EE31E300918929 /* ElementViewController.swift */,
 				5CE483BC21EE20BB00918929 /* AppDelegate.swift */,
 				5CE483BE21EE20BB00918929 /* ViewController.swift */,
 				5CE483C021EE20BB00918929 /* Main.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				5CE483BF21EE20BB00918929 /* ViewController.swift in Sources */,
 				5CE483BD21EE20BB00918929 /* AppDelegate.swift in Sources */,
+				5CE483D921EE31E300918929 /* ElementViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
